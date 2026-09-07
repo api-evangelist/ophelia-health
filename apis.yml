@@ -67,6 +67,8 @@ tags_raw:
 - Medication Assisted Treatment
 apis: []
 common:
+- type: GitHubOrganization
+  url: https://github.com/opheliahealth
 - type: DomainSecurity
   url: security/ophelia-health-domain-security.yml
 - type: Website
@@ -95,5 +97,3 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
-x-parent: ophelia
-x-relationship: product
